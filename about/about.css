@@ -1,0 +1,7 @@
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+#side-by-side{
+    display: inline-block;
+}
