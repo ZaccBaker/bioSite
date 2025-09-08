@@ -1,0 +1,34 @@
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    background-color: #023059;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #BF1725;
+    border-bottom: solid 15px #FFFFFF;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: aliceblue;
+    color: black;
+}

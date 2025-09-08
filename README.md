@@ -1,2 +1,4 @@
-# bioSite
-bioSIte project for CSD340 Web Developement
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+- Zac Baker
+- Professor Adam Bailey
