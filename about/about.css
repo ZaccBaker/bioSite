@@ -2,6 +2,39 @@ body{
     font-family: "Oswald", sans-serif;
 }
 
-#side-by-side{
-    display: inline-block;
+header{
+    background-color: #023059;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#image{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+#container{
+    display: grid;
+    padding: 20px;
+    place-items: center;
+}
+
+.box{
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.8);
+}
+
+footer a{
+    color: #023059;
+    float: right;
+    padding-right: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #BF1725;
 }
