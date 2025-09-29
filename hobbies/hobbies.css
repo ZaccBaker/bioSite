@@ -9,8 +9,28 @@ header{
     text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #BF1725;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 #image{
-    width: 75%;
+    width: 70%;
     height: auto;
     border-radius: 15px;
 }
@@ -19,13 +39,23 @@ header{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
     padding: 20px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.8);
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 
-figure{
+#image-right, #content-right{
+    float: right;
+}
+
+#image-left, #content-left{
+    float: left;
+}
+
+figure, p{
     text-align: center;
 }
 

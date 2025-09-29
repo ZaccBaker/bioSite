@@ -24,12 +24,23 @@ li a {
   text-decoration: none;
 }
 
+#image{
+  width: 70%;
+  height: auto;
+  border-radius: 15px;
+}
+
 #container{
   display: grid;
   grid-template-columns: auto auto;
 }
 
 #content{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.8);
   width: 60%;
   margin-left: 20%;
   text-align: center;
